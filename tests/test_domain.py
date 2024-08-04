@@ -15,14 +15,5 @@ def test_get_option_values():
 
     result = Option(**initial_params).prices()
 
-    option = Option(**initial_params)
-
-    print(f"{option.d1()=}")
-    print(f"{option.d2()=}")
-    print(f"{option._call()=}")
-    print(f"{option._put()=}")
-
-    print(f"{result=}")
-
     assert result[0] == call_price
     assert result[1] == put_price
