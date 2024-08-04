@@ -10,10 +10,17 @@ def test_get_option_values():
         "annualized_volatility": 0.3,  # annualized volatility of the asset's returns
     }
 
-    call_price = 16.73413358238666
-    put_price = 7.217875385982609
+    call_price = 16.73
+    put_price = 7.22
 
     result = Option(**initial_params).prices()
+
+    option = Option(**initial_params)
+
+    print(f"{option.d1()=}")
+    print(f"{option.d2()=}")
+    print(f"{option._call()=}")
+    print(f"{option._put()=}")
 
     print(f"{result=}")
 

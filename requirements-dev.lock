@@ -47,6 +47,8 @@ markupsafe==2.1.5
     # via jinja2
 mdurl==0.1.2
     # via markdown-it-py
+nodeenv==1.9.1
+    # via pyright
 numpy==2.0.1
     # via altair
     # via options
@@ -74,6 +76,8 @@ pydeck==0.9.1
     # via streamlit
 pygments==2.18.0
     # via rich
+pyright==1.1.374
+    # via options
 pytest==8.3.2
     # via options
 python-dateutil==2.9.0.post0
