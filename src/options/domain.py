@@ -10,12 +10,14 @@ class Option:
         risk_free_rate: float,
         days_to_expiry: int,
         annualized_volatility: float,
+        purchase_price: float | None = None,
     ):
         self.current_price = current_price
         self.strike_price = strike_price
         self.risk_free_rate = risk_free_rate
         self.days_to_expiry = days_to_expiry
         self.annualized_volatility = annualized_volatility
+        self.purchase_price = purchase_price
 
     @staticmethod
     def N(x):
@@ -45,3 +47,11 @@ class Option:
 
     def prices(self):
         return float(self._call()), float(self._put())
+
+    def profit(self):
+        if self.purchase_price is None:
+            raise ValueError()
+
+        prices = self.prices()
+
+        return prices[0] - self.purchase_price, prices[1] - self.purchase_price

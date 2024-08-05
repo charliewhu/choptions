@@ -1,19 +1,18 @@
 from options.domain import Option
 
 
-def test_get_option_values():
-    initial_params = {
-        "current_price": 100,  #  current asset price
-        "strike_price": 100,  # strike price of the option
-        "risk_free_rate": 0.1,  # risk free rate
-        "days_to_expiry": 1,  #  time until option expiration
-        "annualized_volatility": 0.3,  # annualized volatility of the asset's returns
-    }
+def test_get_option_values(option_fixture):
+    result = Option(**option_fixture["inputs"]).prices()
 
-    call_price = 16.73
-    put_price = 7.22
+    assert result[0] == option_fixture["prices"]["call"]
+    assert result[1] == option_fixture["prices"]["put"]
 
-    result = Option(**initial_params).prices()
 
-    assert result[0] == call_price
-    assert result[1] == put_price
+def test_get_option_pnl(option_fixture):
+    purchase_price = 10
+    option = Option(**option_fixture["inputs"], purchase_price=purchase_price)
+
+    result = option.profit()
+
+    assert result[0] == option_fixture["prices"]["call"] - purchase_price
+    assert result[1] == option_fixture["prices"]["put"] - purchase_price
