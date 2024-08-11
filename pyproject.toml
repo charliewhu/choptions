@@ -7,13 +7,21 @@ dependencies = [
     "typer>=0.12.3",
     "streamlit>=1.37.0",
     "watchdog>=4.0.1",
-    "pytest>=8.3.2",
     "numpy>=2.0.1",
     "scipy>=1.14.0",
-    "pyright>=1.1.374",
 ]
+
 readme = "README.md"
 requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pytest>=8.3.2",
+    "pyright>=1.1.374",
+    "pytest-playwright>=0.5.1",
+    "playwright>=1.45.1",
+]
 
 [project.scripts]
 options = 'options.cli:main'
@@ -22,9 +30,6 @@ options = 'options.cli:main'
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-[tool.rye]
-managed = true
-dev-dependencies = []
 
 [tool.hatch.metadata]
 allow-direct-references = true

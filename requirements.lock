@@ -32,8 +32,6 @@ gitpython==3.1.43
     # via streamlit
 idna==3.7
     # via requests
-iniconfig==2.0.0
-    # via pytest
 jinja2==3.1.4
     # via altair
     # via pydeck
@@ -47,8 +45,6 @@ markupsafe==2.1.5
     # via jinja2
 mdurl==0.1.2
     # via markdown-it-py
-nodeenv==1.9.1
-    # via pyright
 numpy==2.0.1
     # via altair
     # via options
@@ -59,15 +55,12 @@ numpy==2.0.1
     # via streamlit
 packaging==24.1
     # via altair
-    # via pytest
     # via streamlit
 pandas==2.2.2
     # via altair
     # via streamlit
 pillow==10.4.0
     # via streamlit
-pluggy==1.5.0
-    # via pytest
 protobuf==5.27.3
     # via streamlit
 pyarrow==17.0.0
@@ -76,10 +69,6 @@ pydeck==0.9.1
     # via streamlit
 pygments==2.18.0
     # via rich
-pyright==1.1.374
-    # via options
-pytest==8.3.2
-    # via options
 python-dateutil==2.9.0.post0
     # via pandas
 pytz==2024.1

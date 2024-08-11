@@ -1,0 +1,2654 @@
+versions pytest-8.3.2, python-3.12.4.final.0
+invocation_dir=/Users/charlie/Developer/Python/options
+cwd=/Users/charlie/Developer/Python/options
+args=('--headed', '--debug')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x101385940>
+    pytest_plugin_registered [hook]
+        plugin: <Session  exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        plugin_name: session
+        manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x101385940>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x10205cef0>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x10204d670>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+          plugin_name: 4318241968
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x101385940>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/mark/__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/assertion/__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/freeze_support.py'>
+          plugin_name: freeze_support
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/python_path.py'>
+          plugin_name: python_path
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_playwright.pytest_playwright' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/pytest_playwright/pytest_playwright.py'>
+          plugin_name: playwright
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_base_url.plugin' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/pytest_base_url/plugin.py'>
+          plugin_name: base_url
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=6 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=7 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from '/Users/charlie/Developer/Python/options/tests/conftest.py'>
+          plugin_name: /Users/charlie/Developer/Python/options/tests/conftest.py
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x10205cef0>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x10204d670>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x10205ce60>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x10205c350>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+          plugin_name: 4318241968
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x101385940>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/mark/__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/assertion/__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/freeze_support.py'>
+          plugin_name: freeze_support
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/python_path.py'>
+          plugin_name: python_path
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_playwright.pytest_playwright' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/pytest_playwright/pytest_playwright.py'>
+          plugin_name: playwright
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_base_url.plugin' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/pytest_base_url/plugin.py'>
+          plugin_name: base_url
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=6 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=7 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from '/Users/charlie/Developer/Python/options/tests/conftest.py'>
+          plugin_name: /Users/charlie/Developer/Python/options/tests/conftest.py
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x10205cef0>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x10204d670>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x10205ce60>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x10205c350>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x1019863c0>
+          plugin_name: funcmanage
+          manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x101385940>
+          start_path: /Users/charlie/Developer/Python/options
+          startdir: /Users/charlie/Developer/Python/options
+      early skip of rewriting module: email.parser [assertion]
+      early skip of rewriting module: email.feedparser [assertion]
+      finish pytest_report_header --> [['rootdir: /Users/charlie/Developer/Python/options', 'configfile: pyproject.toml', 'plugins: playwright-0.5.1, base-url-2.1.0'], ['using: pytest-8.3.2', 'registered third-party plugins:', '  pytest-playwright-0.5.1 at /Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/pytest_playwright/pytest_playwright.py', '  pytest-base-url-2.1.0 at /Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/pytest_base_url/plugin.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['/Users/charlie/Developer/Python/options'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument CollectionArgument(path=PosixPath('/Users/charlie/Developer/Python/options'), parts=[], module_name=None) [collection]
+            pytest_collect_directory [hook]
+                path: /Users/charlie/Developer/Python/options
+                parent: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_directory --> <Dir options> [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Dir options> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir options>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir options>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/.git
+            path: /Users/charlie/Developer/Python/options/.git
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/.gitignore
+            path: /Users/charlie/Developer/Python/options/.gitignore
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir options>
+            file_path: /Users/charlie/Developer/Python/options/.gitignore
+            path: /Users/charlie/Developer/Python/options/.gitignore
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/.pytest_cache
+            path: /Users/charlie/Developer/Python/options/.pytest_cache
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/.python-version
+            path: /Users/charlie/Developer/Python/options/.python-version
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir options>
+            file_path: /Users/charlie/Developer/Python/options/.python-version
+            path: /Users/charlie/Developer/Python/options/.python-version
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/.venv
+            path: /Users/charlie/Developer/Python/options/.venv
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/Makefile
+            path: /Users/charlie/Developer/Python/options/Makefile
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir options>
+            file_path: /Users/charlie/Developer/Python/options/Makefile
+            path: /Users/charlie/Developer/Python/options/Makefile
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/README.md
+            path: /Users/charlie/Developer/Python/options/README.md
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir options>
+            file_path: /Users/charlie/Developer/Python/options/README.md
+            path: /Users/charlie/Developer/Python/options/README.md
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/pyproject.toml
+            path: /Users/charlie/Developer/Python/options/pyproject.toml
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir options>
+            file_path: /Users/charlie/Developer/Python/options/pyproject.toml
+            path: /Users/charlie/Developer/Python/options/pyproject.toml
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/pytestdebug.log
+            path: /Users/charlie/Developer/Python/options/pytestdebug.log
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir options>
+            file_path: /Users/charlie/Developer/Python/options/pytestdebug.log
+            path: /Users/charlie/Developer/Python/options/pytestdebug.log
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/requirements-dev.lock
+            path: /Users/charlie/Developer/Python/options/requirements-dev.lock
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir options>
+            file_path: /Users/charlie/Developer/Python/options/requirements-dev.lock
+            path: /Users/charlie/Developer/Python/options/requirements-dev.lock
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/requirements.lock
+            path: /Users/charlie/Developer/Python/options/requirements.lock
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir options>
+            file_path: /Users/charlie/Developer/Python/options/requirements.lock
+            path: /Users/charlie/Developer/Python/options/requirements.lock
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/src
+            path: /Users/charlie/Developer/Python/options/src
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /Users/charlie/Developer/Python/options/src
+            parent: <Dir options>
+        finish pytest_collect_directory --> <Dir src> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/tests
+            path: /Users/charlie/Developer/Python/options/tests
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /Users/charlie/Developer/Python/options/tests
+            parent: <Dir options>
+        finish pytest_collect_directory --> <Dir tests> [hook]
+      finish pytest_make_collect_report --> <CollectReport '.' lenresult=2 outcome='passed'> [hook]
+    genitems <Dir src> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir src>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir src>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/src/.DS_Store
+            path: /Users/charlie/Developer/Python/options/src/.DS_Store
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir src>
+            file_path: /Users/charlie/Developer/Python/options/src/.DS_Store
+            path: /Users/charlie/Developer/Python/options/src/.DS_Store
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/src/options
+            path: /Users/charlie/Developer/Python/options/src/options
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /Users/charlie/Developer/Python/options/src/options
+            parent: <Dir src>
+        finish pytest_collect_directory --> <Package options> [hook]
+      finish pytest_make_collect_report --> <CollectReport 'src' lenresult=1 outcome='passed'> [hook]
+    genitems <Package options> [collection]
+      pytest_collectstart [hook]
+          collector: <Package options>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package options>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/src/options/__init__.py
+            path: /Users/charlie/Developer/Python/options/src/options/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package options>
+            file_path: /Users/charlie/Developer/Python/options/src/options/__init__.py
+            path: /Users/charlie/Developer/Python/options/src/options/__init__.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/src/options/__pycache__
+            path: /Users/charlie/Developer/Python/options/src/options/__pycache__
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/src/options/app.py
+            path: /Users/charlie/Developer/Python/options/src/options/app.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package options>
+            file_path: /Users/charlie/Developer/Python/options/src/options/app.py
+            path: /Users/charlie/Developer/Python/options/src/options/app.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/src/options/cli.py
+            path: /Users/charlie/Developer/Python/options/src/options/cli.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package options>
+            file_path: /Users/charlie/Developer/Python/options/src/options/cli.py
+            path: /Users/charlie/Developer/Python/options/src/options/cli.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/src/options/domain.py
+            path: /Users/charlie/Developer/Python/options/src/options/domain.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package options>
+            file_path: /Users/charlie/Developer/Python/options/src/options/domain.py
+            path: /Users/charlie/Developer/Python/options/src/options/domain.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'src/options' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'src/options' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'src' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Dir tests> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir tests>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir tests>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/tests/__pycache__
+            path: /Users/charlie/Developer/Python/options/tests/__pycache__
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/tests/conftest.py
+            path: /Users/charlie/Developer/Python/options/tests/conftest.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir tests>
+            file_path: /Users/charlie/Developer/Python/options/tests/conftest.py
+            path: /Users/charlie/Developer/Python/options/tests/conftest.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/tests/integration
+            path: /Users/charlie/Developer/Python/options/tests/integration
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /Users/charlie/Developer/Python/options/tests/integration
+            parent: <Dir tests>
+        finish pytest_collect_directory --> <Dir integration> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/tests/test_cli.py
+            path: /Users/charlie/Developer/Python/options/tests/test_cli.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir tests>
+            file_path: /Users/charlie/Developer/Python/options/tests/test_cli.py
+            path: /Users/charlie/Developer/Python/options/tests/test_cli.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Dir tests>
+              module_path: /Users/charlie/Developer/Python/options/tests/test_cli.py
+              path: /Users/charlie/Developer/Python/options/tests/test_cli.py
+          finish pytest_pycollect_makemodule --> <Module test_cli.py> [hook]
+        finish pytest_collect_file --> [<Module test_cli.py>] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/tests/test_domain.py
+            path: /Users/charlie/Developer/Python/options/tests/test_domain.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir tests>
+            file_path: /Users/charlie/Developer/Python/options/tests/test_domain.py
+            path: /Users/charlie/Developer/Python/options/tests/test_domain.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Dir tests>
+              module_path: /Users/charlie/Developer/Python/options/tests/test_domain.py
+              path: /Users/charlie/Developer/Python/options/tests/test_domain.py
+          finish pytest_pycollect_makemodule --> <Module test_domain.py> [hook]
+        finish pytest_collect_file --> [<Module test_domain.py>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests' lenresult=3 outcome='passed'> [hook]
+    genitems <Dir integration> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir integration>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir integration>
+      find_module called for: conftest [assertion]
+      rewriting conftest file: '/Users/charlie/Developer/Python/options/tests/integration/conftest.py' [assertion]
+      found cached rewritten pyc for /Users/charlie/Developer/Python/options/tests/integration/conftest.py [assertion]
+      early skip of rewriting module: requests [assertion]
+      early skip of rewriting module: urllib3 [assertion]
+      early skip of rewriting module: urllib3.exceptions [assertion]
+      early skip of rewriting module: http [assertion]
+      early skip of rewriting module: http.client [assertion]
+      early skip of rewriting module: urllib3._base_connection [assertion]
+      early skip of rewriting module: urllib3.util [assertion]
+      early skip of rewriting module: urllib3.util.connection [assertion]
+      early skip of rewriting module: urllib3.util.timeout [assertion]
+      early skip of rewriting module: urllib3.util.request [assertion]
+      early skip of rewriting module: urllib3.util.util [assertion]
+      early skip of rewriting module: brotlicffi [assertion]
+      early skip of rewriting module: brotli [assertion]
+      early skip of rewriting module: zstandard [assertion]
+      early skip of rewriting module: urllib3.util.response [assertion]
+      early skip of rewriting module: urllib3.util.retry [assertion]
+      early skip of rewriting module: urllib3.util.ssl_ [assertion]
+      early skip of rewriting module: hmac [assertion]
+      early skip of rewriting module: urllib3.util.url [assertion]
+      early skip of rewriting module: urllib3.util.ssltransport [assertion]
+      early skip of rewriting module: urllib3.util.wait [assertion]
+      early skip of rewriting module: urllib3._collections [assertion]
+      early skip of rewriting module: urllib3._version [assertion]
+      early skip of rewriting module: urllib3.connectionpool [assertion]
+      early skip of rewriting module: urllib3._request_methods [assertion]
+      early skip of rewriting module: urllib3.filepost [assertion]
+      early skip of rewriting module: urllib3.fields [assertion]
+      early skip of rewriting module: urllib3.response [assertion]
+      early skip of rewriting module: brotlicffi [assertion]
+      early skip of rewriting module: brotli [assertion]
+      early skip of rewriting module: zstandard [assertion]
+      early skip of rewriting module: urllib3.connection [assertion]
+      early skip of rewriting module: urllib3.util.ssl_match_hostname [assertion]
+      early skip of rewriting module: urllib3.util.proxy [assertion]
+      early skip of rewriting module: urllib3.poolmanager [assertion]
+      early skip of rewriting module: requests.exceptions [assertion]
+      early skip of rewriting module: requests.compat [assertion]
+      early skip of rewriting module: chardet [assertion]
+      early skip of rewriting module: charset_normalizer [assertion]
+      early skip of rewriting module: charset_normalizer.api [assertion]
+      early skip of rewriting module: charset_normalizer.cd [assertion]
+      early skip of rewriting module: charset_normalizer.constant [assertion]
+      early skip of rewriting module: charset_normalizer.md [assertion]
+      early skip of rewriting module: charset_normalizer.md__mypyc [assertion]
+      early skip of rewriting module: charset_normalizer.utils [assertion]
+      early skip of rewriting module: _multibytecodec [assertion]
+      early skip of rewriting module: charset_normalizer.models [assertion]
+      early skip of rewriting module: charset_normalizer.legacy [assertion]
+      early skip of rewriting module: charset_normalizer.version [assertion]
+      early skip of rewriting module: simplejson [assertion]
+      early skip of rewriting module: http.cookiejar [assertion]
+      early skip of rewriting module: urllib.request [assertion]
+      early skip of rewriting module: urllib.error [assertion]
+      early skip of rewriting module: urllib.response [assertion]
+      early skip of rewriting module: _scproxy [assertion]
+      early skip of rewriting module: http.cookies [assertion]
+      early skip of rewriting module: chardet [assertion]
+      early skip of rewriting module: requests.packages [assertion]
+      early skip of rewriting module: idna [assertion]
+      early skip of rewriting module: idna.package_data [assertion]
+      early skip of rewriting module: idna.core [assertion]
+      early skip of rewriting module: idna.idnadata [assertion]
+      early skip of rewriting module: idna.intranges [assertion]
+      early skip of rewriting module: requests.utils [assertion]
+      early skip of rewriting module: requests.certs [assertion]
+      early skip of rewriting module: certifi [assertion]
+      early skip of rewriting module: certifi.core [assertion]
+      early skip of rewriting module: requests.__version__ [assertion]
+      early skip of rewriting module: requests._internal_utils [assertion]
+      early skip of rewriting module: requests.cookies [assertion]
+      early skip of rewriting module: requests.structures [assertion]
+      early skip of rewriting module: importlib.readers [assertion]
+      early skip of rewriting module: importlib.resources.readers [assertion]
+      early skip of rewriting module: importlib.resources._itertools [assertion]
+      early skip of rewriting module: requests.api [assertion]
+      early skip of rewriting module: requests.sessions [assertion]
+      early skip of rewriting module: requests.adapters [assertion]
+      early skip of rewriting module: requests.auth [assertion]
+      early skip of rewriting module: requests.models [assertion]
+      early skip of rewriting module: encodings.idna [assertion]
+      early skip of rewriting module: stringprep [assertion]
+      early skip of rewriting module: requests.hooks [assertion]
+      early skip of rewriting module: requests.status_codes [assertion]
+      early skip of rewriting module: urllib3.contrib [assertion]
+      early skip of rewriting module: urllib3.contrib.socks [assertion]
+      early skip of rewriting module: socks [assertion]
+      loading conftestmodule <module 'conftest' from '/Users/charlie/Developer/Python/options/tests/integration/conftest.py'> [pluginmanage]
+        pytest_plugin_registered [hook]
+            plugin: <module 'conftest' from '/Users/charlie/Developer/Python/options/tests/integration/conftest.py'>
+            plugin_name: /Users/charlie/Developer/Python/options/tests/integration/conftest.py
+            manager: <_pytest.config.PytestPluginManager object at 0x1016324b0>
+        finish pytest_plugin_registered --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/tests/integration/__pycache__
+            path: /Users/charlie/Developer/Python/options/tests/integration/__pycache__
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/tests/integration/conftest.py
+            path: /Users/charlie/Developer/Python/options/tests/integration/conftest.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir integration>
+            file_path: /Users/charlie/Developer/Python/options/tests/integration/conftest.py
+            path: /Users/charlie/Developer/Python/options/tests/integration/conftest.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            collection_path: /Users/charlie/Developer/Python/options/tests/integration/test_app.py
+            path: /Users/charlie/Developer/Python/options/tests/integration/test_app.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir integration>
+            file_path: /Users/charlie/Developer/Python/options/tests/integration/test_app.py
+            path: /Users/charlie/Developer/Python/options/tests/integration/test_app.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Dir integration>
+              module_path: /Users/charlie/Developer/Python/options/tests/integration/test_app.py
+              path: /Users/charlie/Developer/Python/options/tests/integration/test_app.py
+          finish pytest_pycollect_makemodule --> <Module test_app.py> [hook]
+        finish pytest_collect_file --> [<Module test_app.py>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/integration' lenresult=1 outcome='passed'> [hook]
+    genitems <Module test_app.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_app.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_app.py>
+      find_module called for: test_app [assertion]
+      matched test file '/Users/charlie/Developer/Python/options/tests/integration/test_app.py' [assertion]
+      found cached rewritten pyc for /Users/charlie/Developer/Python/options/tests/integration/test_app.py [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: expect
+            obj: <playwright.sync_api.Expect object at 0x101766c30>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: test_playwright_runs
+            obj: <function test_playwright_runs at 0x102089c60>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x101741490>
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x101385940>
+                val: chromium
+                argname: browser_name
+            finish pytest_make_parametrize_id --> None [hook]
+          early skip of rewriting module: encodings.unicode_escape [assertion]
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_playwright_runs[chromium]>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_app.py>
+            name: test_generate_prices
+            obj: <function test_generate_prices at 0x10208b560>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x103685df0>
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x101385940>
+                val: chromium
+                argname: browser_name
+            finish pytest_make_parametrize_id --> None [hook]
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_generate_prices[chromium]>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/integration/test_app.py' lenresult=2 outcome='passed'> [hook]
+    genitems <Function test_playwright_runs[chromium]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_playwright_runs[chromium]>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_generate_prices[chromium]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_generate_prices[chromium]>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/integration/test_app.py' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/integration' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module test_cli.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_cli.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_cli.py>
+      find_module called for: test_cli [assertion]
+      matched test file '/Users/charlie/Developer/Python/options/tests/test_cli.py' [assertion]
+      found cached rewritten pyc for /Users/charlie/Developer/Python/options/tests/test_cli.py [assertion]
+      early skip of rewriting module: typer [assertion]
+      early skip of rewriting module: click [assertion]
+      early skip of rewriting module: click.core [assertion]
+      early skip of rewriting module: click.types [assertion]
+      early skip of rewriting module: click._compat [assertion]
+      early skip of rewriting module: click.exceptions [assertion]
+      early skip of rewriting module: click.utils [assertion]
+      early skip of rewriting module: click.globals [assertion]
+      early skip of rewriting module: click.formatting [assertion]
+      early skip of rewriting module: click.parser [assertion]
+      early skip of rewriting module: click.termui [assertion]
+      early skip of rewriting module: click.decorators [assertion]
+      early skip of rewriting module: typer.colors [assertion]
+      early skip of rewriting module: typer.main [assertion]
+      early skip of rewriting module: typer.completion [assertion]
+      early skip of rewriting module: typer._completion_classes [assertion]
+      early skip of rewriting module: click.shell_completion [assertion]
+      early skip of rewriting module: typer._completion_shared [assertion]
+      early skip of rewriting module: shellingham [assertion]
+      early skip of rewriting module: shellingham._core [assertion]
+      early skip of rewriting module: typer.models [assertion]
+      early skip of rewriting module: typer.params [assertion]
+      early skip of rewriting module: typer.utils [assertion]
+      early skip of rewriting module: typing_extensions [assertion]
+      early skip of rewriting module: typer._typing [assertion]
+      early skip of rewriting module: typer.core [assertion]
+      early skip of rewriting module: rich [assertion]
+      early skip of rewriting module: rich._extension [assertion]
+      early skip of rewriting module: typer.rich_utils [assertion]
+      early skip of rewriting module: rich.box [assertion]
+      early skip of rewriting module: rich._loop [assertion]
+      early skip of rewriting module: rich.align [assertion]
+      early skip of rewriting module: rich.constrain [assertion]
+      early skip of rewriting module: rich.jupyter [assertion]
+      early skip of rewriting module: rich.segment [assertion]
+      early skip of rewriting module: rich.cells [assertion]
+      early skip of rewriting module: rich._cell_widths [assertion]
+      early skip of rewriting module: rich.repr [assertion]
+      early skip of rewriting module: rich.style [assertion]
+      early skip of rewriting module: rich.errors [assertion]
+      early skip of rewriting module: rich.color [assertion]
+      early skip of rewriting module: colorsys [assertion]
+      early skip of rewriting module: rich._palettes [assertion]
+      early skip of rewriting module: rich.palette [assertion]
+      early skip of rewriting module: rich.color_triplet [assertion]
+      early skip of rewriting module: rich.terminal_theme [assertion]
+      early skip of rewriting module: rich.measure [assertion]
+      early skip of rewriting module: rich.protocol [assertion]
+      early skip of rewriting module: rich.columns [assertion]
+      early skip of rewriting module: rich.console [assertion]
+      early skip of rewriting module: getpass [assertion]
+      early skip of rewriting module: termios [assertion]
+      early skip of rewriting module: rich._null_file [assertion]
+      early skip of rewriting module: rich.themes [assertion]
+      early skip of rewriting module: rich.default_styles [assertion]
+      early skip of rewriting module: rich.theme [assertion]
+      early skip of rewriting module: configparser [assertion]
+      early skip of rewriting module: rich._emoji_replace [assertion]
+      early skip of rewriting module: rich._emoji_codes [assertion]
+      early skip of rewriting module: rich._export_format [assertion]
+      early skip of rewriting module: rich._fileno [assertion]
+      early skip of rewriting module: rich._log_render [assertion]
+      early skip of rewriting module: rich.text [assertion]
+      early skip of rewriting module: rich._pick [assertion]
+      early skip of rewriting module: rich._wrap [assertion]
+      early skip of rewriting module: rich.containers [assertion]
+      early skip of rewriting module: rich.control [assertion]
+      early skip of rewriting module: rich.emoji [assertion]
+      early skip of rewriting module: rich.highlighter [assertion]
+      early skip of rewriting module: rich.markup [assertion]
+      early skip of rewriting module: rich.pager [assertion]
+      early skip of rewriting module: rich.pretty [assertion]
+      early skip of rewriting module: attr [assertion]
+      early skip of rewriting module: attr.converters [assertion]
+      early skip of rewriting module: attr._compat [assertion]
+      early skip of rewriting module: attr._make [assertion]
+      early skip of rewriting module: attr._config [assertion]
+      early skip of rewriting module: attr.setters [assertion]
+      early skip of rewriting module: attr.exceptions [assertion]
+      early skip of rewriting module: attr.filters [assertion]
+      early skip of rewriting module: attr.validators [assertion]
+      early skip of rewriting module: attr._cmp [assertion]
+      early skip of rewriting module: attr._funcs [assertion]
+      early skip of rewriting module: attr._next_gen [assertion]
+      early skip of rewriting module: attr._version_info [assertion]
+      early skip of rewriting module: rich.abc [assertion]
+      early skip of rewriting module: rich.region [assertion]
+      early skip of rewriting module: rich.scope [assertion]
+      early skip of rewriting module: rich.panel [assertion]
+      early skip of rewriting module: rich.padding [assertion]
+      early skip of rewriting module: rich.table [assertion]
+      early skip of rewriting module: rich._ratio [assertion]
+      early skip of rewriting module: fractions [assertion]
+      early skip of rewriting module: rich.screen [assertion]
+      early skip of rewriting module: rich.styled [assertion]
+      early skip of rewriting module: rich.markdown [assertion]
+      early skip of rewriting module: markdown_it [assertion]
+      early skip of rewriting module: markdown_it.main [assertion]
+      early skip of rewriting module: markdown_it.helpers [assertion]
+      early skip of rewriting module: markdown_it.helpers.parse_link_destination [assertion]
+      early skip of rewriting module: markdown_it.common [assertion]
+      early skip of rewriting module: markdown_it.common.utils [assertion]
+      early skip of rewriting module: markdown_it.common.entities [assertion]
+      early skip of rewriting module: markdown_it.helpers.parse_link_label [assertion]
+      early skip of rewriting module: markdown_it.rules_inline [assertion]
+      early skip of rewriting module: markdown_it.rules_inline.emphasis [assertion]
+      early skip of rewriting module: markdown_it.rules_inline.state_inline [assertion]
+      early skip of rewriting module: markdown_it._compat [assertion]
+      early skip of rewriting module: markdown_it.ruler [assertion]
+      early skip of rewriting module: markdown_it.utils [assertion]
+      early skip of rewriting module: markdown_it.token [assertion]
+      early skip of rewriting module: markdown_it.rules_inline.strikethrough [assertion]
+      early skip of rewriting module: markdown_it.rules_inline.autolink [assertion]
+      early skip of rewriting module: markdown_it.rules_inline.backticks [assertion]
+      early skip of rewriting module: markdown_it.rules_inline.balance_pairs [assertion]
+      early skip of rewriting module: markdown_it.rules_inline.entity [assertion]
+      early skip of rewriting module: markdown_it.rules_inline.escape [assertion]
+      early skip of rewriting module: markdown_it.rules_inline.fragments_join [assertion]
+      early skip of rewriting module: markdown_it.rules_inline.html_inline [assertion]
+      early skip of rewriting module: markdown_it.common.html_re [assertion]
+      early skip of rewriting module: markdown_it.rules_inline.image [assertion]
+      early skip of rewriting module: markdown_it.rules_inline.link [assertion]
+      early skip of rewriting module: markdown_it.rules_inline.linkify [assertion]
+      early skip of rewriting module: markdown_it.rules_inline.newline [assertion]
+      early skip of rewriting module: markdown_it.rules_inline.text [assertion]
+      early skip of rewriting module: markdown_it.helpers.parse_link_title [assertion]
+      early skip of rewriting module: markdown_it.presets [assertion]
+      early skip of rewriting module: markdown_it.presets.commonmark [assertion]
+      early skip of rewriting module: markdown_it.presets.default [assertion]
+      early skip of rewriting module: markdown_it.presets.zero [assertion]
+      early skip of rewriting module: markdown_it.common.normalize_url [assertion]
+      early skip of rewriting module: mdurl [assertion]
+      early skip of rewriting module: mdurl._decode [assertion]
+      early skip of rewriting module: mdurl._encode [assertion]
+      early skip of rewriting module: mdurl._format [assertion]
+      early skip of rewriting module: mdurl._parse [assertion]
+      early skip of rewriting module: mdurl._url [assertion]
+      early skip of rewriting module: markdown_it._punycode [assertion]
+      early skip of rewriting module: markdown_it.parser_block [assertion]
+      early skip of rewriting module: markdown_it.rules_block [assertion]
+      early skip of rewriting module: markdown_it.rules_block.blockquote [assertion]
+      early skip of rewriting module: markdown_it.rules_block.state_block [assertion]
+      early skip of rewriting module: markdown_it.rules_block.code [assertion]
+      early skip of rewriting module: markdown_it.rules_block.fence [assertion]
+      early skip of rewriting module: markdown_it.rules_block.heading [assertion]
+      early skip of rewriting module: markdown_it.rules_block.hr [assertion]
+      early skip of rewriting module: markdown_it.rules_block.html_block [assertion]
+      early skip of rewriting module: markdown_it.common.html_blocks [assertion]
+      early skip of rewriting module: markdown_it.rules_block.lheading [assertion]
+      early skip of rewriting module: markdown_it.rules_block.list [assertion]
+      early skip of rewriting module: markdown_it.rules_block.paragraph [assertion]
+      early skip of rewriting module: markdown_it.rules_block.reference [assertion]
+      early skip of rewriting module: markdown_it.rules_block.table [assertion]
+      early skip of rewriting module: markdown_it.parser_core [assertion]
+      early skip of rewriting module: markdown_it.rules_core [assertion]
+      early skip of rewriting module: markdown_it.rules_core.block [assertion]
+      early skip of rewriting module: markdown_it.rules_core.state_core [assertion]
+      early skip of rewriting module: markdown_it.rules_core.inline [assertion]
+      early skip of rewriting module: markdown_it.rules_core.linkify [assertion]
+      early skip of rewriting module: markdown_it.rules_core.normalize [assertion]
+      early skip of rewriting module: markdown_it.rules_core.replacements [assertion]
+      early skip of rewriting module: markdown_it.rules_core.smartquotes [assertion]
+      early skip of rewriting module: markdown_it.rules_core.text_join [assertion]
+      early skip of rewriting module: markdown_it.parser_inline [assertion]
+      early skip of rewriting module: markdown_it.renderer [assertion]
+      early skip of rewriting module: linkify_it [assertion]
+      early skip of rewriting module: rich._stack [assertion]
+      early skip of rewriting module: rich.rule [assertion]
+      early skip of rewriting module: rich.syntax [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments.lexer [assertion]
+      early skip of rewriting module: pygments.filter [assertion]
+      early skip of rewriting module: pygments.filters [assertion]
+      early skip of rewriting module: pygments.token [assertion]
+      early skip of rewriting module: pygments.util [assertion]
+      early skip of rewriting module: pygments.plugin [assertion]
+      early skip of rewriting module: pygments.regexopt [assertion]
+      early skip of rewriting module: pygments.lexers [assertion]
+      early skip of rewriting module: pygments.lexers._mapping [assertion]
+      early skip of rewriting module: pygments.modeline [assertion]
+      early skip of rewriting module: pygments.style [assertion]
+      early skip of rewriting module: pygments.styles [assertion]
+      early skip of rewriting module: pygments.styles._mapping [assertion]
+      early skip of rewriting module: rich.traceback [assertion]
+      early skip of rewriting module: typer.testing [assertion]
+      early skip of rewriting module: click.testing [assertion]
+      find_module called for: options [assertion]
+      early skip of rewriting module: options.cli [assertion]
+      early skip of rewriting module: options.domain [assertion]
+      early skip of rewriting module: numpy [assertion]
+      early skip of rewriting module: numpy._globals [assertion]
+      early skip of rewriting module: numpy._utils [assertion]
+      early skip of rewriting module: numpy._utils._convertions [assertion]
+      early skip of rewriting module: numpy._expired_attrs_2_0 [assertion]
+      early skip of rewriting module: numpy.version [assertion]
+      early skip of rewriting module: numpy._distributor_init [assertion]
+      early skip of rewriting module: numpy._distributor_init_local [assertion]
+      early skip of rewriting module: numpy.__config__ [assertion]
+      early skip of rewriting module: numpy._core [assertion]
+      early skip of rewriting module: numpy._core.multiarray [assertion]
+      early skip of rewriting module: numpy._core.overrides [assertion]
+      early skip of rewriting module: numpy._utils._inspect [assertion]
+      early skip of rewriting module: numpy._core._multiarray_umath [assertion]
+      early skip of rewriting module: numpy.exceptions [assertion]
+      early skip of rewriting module: numpy._core._exceptions [assertion]
+      early skip of rewriting module: numpy.dtypes [assertion]
+      early skip of rewriting module: numpy._core.umath [assertion]
+      early skip of rewriting module: numpy._core.numerictypes [assertion]
+      early skip of rewriting module: numpy._core._string_helpers [assertion]
+      early skip of rewriting module: numpy._core._type_aliases [assertion]
+      early skip of rewriting module: numpy._core._dtype [assertion]
+      early skip of rewriting module: numpy._core.numeric [assertion]
+      early skip of rewriting module: numpy._core.shape_base [assertion]
+      early skip of rewriting module: numpy._core.fromnumeric [assertion]
+      early skip of rewriting module: numpy._core._methods [assertion]
+      early skip of rewriting module: pickle [assertion]
+      early skip of rewriting module: _compat_pickle [assertion]
+      early skip of rewriting module: _pickle [assertion]
+      early skip of rewriting module: numpy._core._ufunc_config [assertion]
+      early skip of rewriting module: numpy._core.arrayprint [assertion]
+      early skip of rewriting module: numpy._core._asarray [assertion]
+      early skip of rewriting module: numpy._core.records [assertion]
+      early skip of rewriting module: numpy._core.memmap [assertion]
+      early skip of rewriting module: numpy._core.function_base [assertion]
+      early skip of rewriting module: numpy._core._machar [assertion]
+      early skip of rewriting module: numpy._core.getlimits [assertion]
+      early skip of rewriting module: numpy._core.einsumfunc [assertion]
+      early skip of rewriting module: numpy._core._add_newdocs [assertion]
+      early skip of rewriting module: numpy._core._multiarray_tests [assertion]
+      early skip of rewriting module: numpy._core._add_newdocs_scalars [assertion]
+      early skip of rewriting module: numpy._core._dtype_ctypes [assertion]
+      early skip of rewriting module: numpy._core._internal [assertion]
+      early skip of rewriting module: ctypes [assertion]
+      early skip of rewriting module: _ctypes [assertion]
+      early skip of rewriting module: ctypes._endian [assertion]
+      early skip of rewriting module: numpy._pytesttester [assertion]
+      early skip of rewriting module: numpy.lib [assertion]
+      early skip of rewriting module: numpy.lib.array_utils [assertion]
+      early skip of rewriting module: numpy.lib._array_utils_impl [assertion]
+      early skip of rewriting module: numpy.lib.introspect [assertion]
+      early skip of rewriting module: numpy.lib.mixins [assertion]
+      early skip of rewriting module: numpy.lib.npyio [assertion]
+      early skip of rewriting module: numpy.lib._npyio_impl [assertion]
+      early skip of rewriting module: numpy.lib.format [assertion]
+      early skip of rewriting module: numpy.lib._utils_impl [assertion]
+      early skip of rewriting module: numpy.lib._datasource [assertion]
+      early skip of rewriting module: numpy.lib._iotools [assertion]
+      early skip of rewriting module: numpy.lib.scimath [assertion]
+      early skip of rewriting module: numpy.lib._scimath_impl [assertion]
+      early skip of rewriting module: numpy.lib._type_check_impl [assertion]
+      early skip of rewriting module: numpy.lib._ufunclike_impl [assertion]
+      early skip of rewriting module: numpy.lib.stride_tricks [assertion]
+      early skip of rewriting module: numpy.lib._stride_tricks_impl [assertion]
+      early skip of rewriting module: numpy.lib._index_tricks_impl [assertion]
+      early skip of rewriting module: numpy.matrixlib [assertion]
+      early skip of rewriting module: numpy.matrixlib.defmatrix [assertion]
+      early skip of rewriting module: numpy.linalg [assertion]
+      early skip of rewriting module: numpy.linalg.linalg [assertion]
+      early skip of rewriting module: numpy.linalg._linalg [assertion]
+      early skip of rewriting module: numpy.lib._twodim_base_impl [assertion]
+      early skip of rewriting module: numpy.linalg._umath_linalg [assertion]
+      early skip of rewriting module: numpy._typing [assertion]
+      early skip of rewriting module: numpy._typing._nested_sequence [assertion]
+      early skip of rewriting module: numpy._typing._nbit [assertion]
+      early skip of rewriting module: numpy._typing._char_codes [assertion]
+      early skip of rewriting module: numpy._typing._scalars [assertion]
+      early skip of rewriting module: numpy._typing._shape [assertion]
+      early skip of rewriting module: numpy._typing._dtype_like [assertion]
+      early skip of rewriting module: numpy._typing._array_like [assertion]
+      early skip of rewriting module: numpy.lib._function_base_impl [assertion]
+      early skip of rewriting module: numpy.lib._histograms_impl [assertion]
+      early skip of rewriting module: numpy.lib._nanfunctions_impl [assertion]
+      early skip of rewriting module: numpy.lib._shape_base_impl [assertion]
+      early skip of rewriting module: numpy.lib._arraysetops_impl [assertion]
+      early skip of rewriting module: numpy.lib._polynomial_impl [assertion]
+      early skip of rewriting module: numpy.lib._arrayterator_impl [assertion]
+      early skip of rewriting module: numpy.lib._arraypad_impl [assertion]
+      early skip of rewriting module: numpy.lib._version [assertion]
+      early skip of rewriting module: scipy [assertion]
+      early skip of rewriting module: scipy.__config__ [assertion]
+      early skip of rewriting module: scipy.version [assertion]
+      early skip of rewriting module: scipy._distributor_init [assertion]
+      early skip of rewriting module: scipy._distributor_init_local [assertion]
+      early skip of rewriting module: scipy._lib [assertion]
+      early skip of rewriting module: scipy._lib._testutils [assertion]
+      early skip of rewriting module: sysconfig [assertion]
+      early skip of rewriting module: cython [assertion]
+      early skip of rewriting module: _sysconfigdata__darwin_darwin [assertion]
+      early skip of rewriting module: _osx_support [assertion]
+      early skip of rewriting module: scipy._lib._pep440 [assertion]
+      early skip of rewriting module: scipy._lib._ccallback [assertion]
+      early skip of rewriting module: scipy._lib._ccallback_c [assertion]
+      early skip of rewriting module: scipy.stats [assertion]
+      early skip of rewriting module: scipy.stats._warnings_errors [assertion]
+      early skip of rewriting module: scipy.stats._stats_py [assertion]
+      early skip of rewriting module: numpy.ma [assertion]
+      early skip of rewriting module: numpy.ma.core [assertion]
+      early skip of rewriting module: numpy.ma.extras [assertion]
+      early skip of rewriting module: scipy.sparse [assertion]
+      early skip of rewriting module: scipy.sparse._base [assertion]
+      early skip of rewriting module: scipy.sparse._sputils [assertion]
+      early skip of rewriting module: scipy._lib._util [assertion]
+      early skip of rewriting module: scipy._lib._array_api [assertion]
+      early skip of rewriting module: numpy.typing [assertion]
+      early skip of rewriting module: numpy._typing._add_docstring [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.common [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.common._helpers [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.numpy [assertion]
+      early skip of rewriting module: numpy.testing [assertion]
+      early skip of rewriting module: numpy.testing._private [assertion]
+      early skip of rewriting module: numpy.testing._private.utils [assertion]
+      early skip of rewriting module: numpy.testing._private.extbuild [assertion]
+      early skip of rewriting module: numpy.testing.overrides [assertion]
+      early skip of rewriting module: numpy.f2py [assertion]
+      early skip of rewriting module: numpy.f2py.f2py2e [assertion]
+      early skip of rewriting module: numpy.f2py.crackfortran [assertion]
+      early skip of rewriting module: fileinput [assertion]
+      early skip of rewriting module: numpy.f2py.__version__ [assertion]
+      early skip of rewriting module: numpy.f2py.auxfuncs [assertion]
+      early skip of rewriting module: numpy.f2py.cfuncs [assertion]
+      early skip of rewriting module: numpy.f2py.symbolic [assertion]
+      early skip of rewriting module: numpy.f2py.rules [assertion]
+      early skip of rewriting module: numpy.f2py.capi_maps [assertion]
+      early skip of rewriting module: numpy.f2py.cb_rules [assertion]
+      early skip of rewriting module: numpy.f2py._isocbind [assertion]
+      early skip of rewriting module: numpy.f2py.common_rules [assertion]
+      early skip of rewriting module: numpy.f2py.func2subr [assertion]
+      early skip of rewriting module: numpy.f2py.use_rules [assertion]
+      early skip of rewriting module: numpy.f2py.f90mod_rules [assertion]
+      early skip of rewriting module: numpy.f2py._backends [assertion]
+      early skip of rewriting module: numpy.f2py.diagnose [assertion]
+      early skip of rewriting module: numpy.char [assertion]
+      early skip of rewriting module: numpy._core.defchararray [assertion]
+      early skip of rewriting module: numpy.strings [assertion]
+      early skip of rewriting module: numpy._core.strings [assertion]
+      early skip of rewriting module: numpy.rec [assertion]
+      early skip of rewriting module: numpy.ctypeslib [assertion]
+      early skip of rewriting module: numpy.fft [assertion]
+      early skip of rewriting module: numpy.fft._pocketfft [assertion]
+      early skip of rewriting module: numpy.fft._pocketfft_umath [assertion]
+      early skip of rewriting module: numpy.fft._helper [assertion]
+      early skip of rewriting module: numpy.fft.helper [assertion]
+      early skip of rewriting module: numpy.core [assertion]
+      early skip of rewriting module: numpy.core._utils [assertion]
+      early skip of rewriting module: numpy.random [assertion]
+      early skip of rewriting module: numpy.random._pickle [assertion]
+      early skip of rewriting module: numpy.random.bit_generator [assertion]
+      early skip of rewriting module: numpy.random._common [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: secrets [assertion]
+      early skip of rewriting module: numpy.random.mtrand [assertion]
+      early skip of rewriting module: numpy.random._bounded_integers [assertion]
+      early skip of rewriting module: numpy.random._mt19937 [assertion]
+      early skip of rewriting module: numpy.random._philox [assertion]
+      early skip of rewriting module: numpy.random._pcg64 [assertion]
+      early skip of rewriting module: numpy.random._sfc64 [assertion]
+      early skip of rewriting module: numpy.random._generator [assertion]
+      early skip of rewriting module: numpy.polynomial [assertion]
+      early skip of rewriting module: numpy.polynomial.polynomial [assertion]
+      early skip of rewriting module: numpy.polynomial.polyutils [assertion]
+      early skip of rewriting module: numpy.polynomial._polybase [assertion]
+      early skip of rewriting module: numpy.polynomial.chebyshev [assertion]
+      early skip of rewriting module: numpy.polynomial.legendre [assertion]
+      early skip of rewriting module: numpy.polynomial.hermite [assertion]
+      early skip of rewriting module: numpy.polynomial.hermite_e [assertion]
+      early skip of rewriting module: numpy.polynomial.laguerre [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.numpy._aliases [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.common._aliases [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat._internal [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.numpy.linalg [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.common._linalg [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.numpy.fft [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.common._fft [assertion]
+      early skip of rewriting module: scipy.sparse._matrix [assertion]
+      early skip of rewriting module: scipy.sparse._csr [assertion]
+      early skip of rewriting module: scipy.sparse._sparsetools [assertion]
+      early skip of rewriting module: scipy.sparse._compressed [assertion]
+      early skip of rewriting module: scipy.sparse._data [assertion]
+      early skip of rewriting module: scipy.sparse._index [assertion]
+      early skip of rewriting module: scipy.sparse._csc [assertion]
+      early skip of rewriting module: scipy.sparse._lil [assertion]
+      early skip of rewriting module: scipy.sparse._csparsetools [assertion]
+      early skip of rewriting module: scipy.sparse._dok [assertion]
+      early skip of rewriting module: scipy.sparse._coo [assertion]
+      early skip of rewriting module: scipy.sparse._dia [assertion]
+      early skip of rewriting module: scipy.sparse._bsr [assertion]
+      early skip of rewriting module: scipy.sparse._construct [assertion]
+      early skip of rewriting module: scipy.sparse._extract [assertion]
+      early skip of rewriting module: scipy.sparse._matrix_io [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._laplacian [assertion]
+      early skip of rewriting module: scipy.sparse.linalg [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._isolve [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._isolve.iterative [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._interface [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._isolve.utils [assertion]
+      early skip of rewriting module: scipy.linalg [assertion]
+      early skip of rewriting module: scipy.linalg._misc [assertion]
+      early skip of rewriting module: scipy.linalg.blas [assertion]
+      early skip of rewriting module: scipy.linalg._fblas [assertion]
+      early skip of rewriting module: scipy.linalg._cblas [assertion]
+      early skip of rewriting module: scipy.linalg._fblas_64 [assertion]
+      early skip of rewriting module: scipy.linalg.lapack [assertion]
+      early skip of rewriting module: scipy.linalg._flapack [assertion]
+      early skip of rewriting module: scipy.linalg._clapack [assertion]
+      early skip of rewriting module: scipy.linalg._flapack_64 [assertion]
+      early skip of rewriting module: scipy.linalg._cythonized_array_utils [assertion]
+      early skip of rewriting module: scipy.linalg.cython_lapack [assertion]
+      early skip of rewriting module: scipy.linalg._basic [assertion]
+      early skip of rewriting module: scipy.linalg._decomp [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_svd [assertion]
+      early skip of rewriting module: scipy.linalg._solve_toeplitz [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_lu [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_lu_cython [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_ldl [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_cholesky [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_qr [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_qz [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_schur [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_polar [assertion]
+      early skip of rewriting module: scipy.linalg._matfuncs [assertion]
+      early skip of rewriting module: scipy.linalg._expm_frechet [assertion]
+      early skip of rewriting module: scipy.linalg._matfuncs_sqrtm [assertion]
+      early skip of rewriting module: scipy.linalg._matfuncs_sqrtm_triu [assertion]
+      early skip of rewriting module: scipy.linalg._matfuncs_expm [assertion]
+      early skip of rewriting module: scipy.linalg.cython_blas [assertion]
+      early skip of rewriting module: scipy.linalg._special_matrices [assertion]
+      early skip of rewriting module: scipy.linalg._solvers [assertion]
+      early skip of rewriting module: scipy.linalg._procrustes [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_update [assertion]
+      early skip of rewriting module: scipy.linalg._sketches [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_cossin [assertion]
+      early skip of rewriting module: scipy.linalg.decomp [assertion]
+      early skip of rewriting module: scipy._lib.deprecation [assertion]
+      early skip of rewriting module: scipy.linalg.decomp_cholesky [assertion]
+      early skip of rewriting module: scipy.linalg.decomp_lu [assertion]
+      early skip of rewriting module: scipy.linalg.decomp_qr [assertion]
+      early skip of rewriting module: scipy.linalg.decomp_svd [assertion]
+      early skip of rewriting module: scipy.linalg.decomp_schur [assertion]
+      early skip of rewriting module: scipy.linalg.basic [assertion]
+      early skip of rewriting module: scipy.linalg.misc [assertion]
+      early skip of rewriting module: scipy.linalg.special_matrices [assertion]
+      early skip of rewriting module: scipy.linalg.matfuncs [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._isolve.minres [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._isolve.lgmres [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._isolve._gcrotmk [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._isolve.lsqr [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._isolve.lsmr [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._isolve.tfqmr [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._dsolve [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._dsolve.linsolve [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._dsolve._superlu [assertion]
+      early skip of rewriting module: scikits [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._dsolve._add_newdocs [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._eigen [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._eigen.arpack [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._eigen.arpack.arpack [assertion]
+      early skip of rewriting module: scipy._lib._threadsafety [assertion]
+      early skip of rewriting module: scipy._lib.decorator [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._eigen.arpack._arpack [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._eigen.lobpcg [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._eigen.lobpcg.lobpcg [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._eigen._svds [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._svdp [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._propack [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._propack._spropack [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._propack._dpropack [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._propack._cpropack [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._propack._zpropack [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._matfuncs [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._expm_multiply [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._onenormest [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._norm [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._special_sparse_arrays [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.isolve [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.dsolve [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.interface [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.eigen [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.matfuncs [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._shortest_path [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._validation [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._tools [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._traversal [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._min_spanning_tree [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._flow [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._matching [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._reordering [assertion]
+      early skip of rewriting module: scipy.sparse.base [assertion]
+      early skip of rewriting module: scipy.sparse.bsr [assertion]
+      early skip of rewriting module: scipy.sparse.compressed [assertion]
+      early skip of rewriting module: scipy.sparse.construct [assertion]
+      early skip of rewriting module: scipy.sparse.coo [assertion]
+      early skip of rewriting module: scipy.sparse.csc [assertion]
+      early skip of rewriting module: scipy.sparse.csr [assertion]
+      early skip of rewriting module: scipy.sparse.data [assertion]
+      early skip of rewriting module: scipy.sparse.dia [assertion]
+      early skip of rewriting module: scipy.sparse.dok [assertion]
+      early skip of rewriting module: scipy.sparse.extract [assertion]
+      early skip of rewriting module: scipy.sparse.lil [assertion]
+      early skip of rewriting module: scipy.sparse.sparsetools [assertion]
+      early skip of rewriting module: scipy.sparse.sputils [assertion]
+      early skip of rewriting module: scipy.spatial [assertion]
+      early skip of rewriting module: scipy.spatial._kdtree [assertion]
+      early skip of rewriting module: scipy.spatial._ckdtree [assertion]
+      early skip of rewriting module: scipy.spatial._qhull [assertion]
+      early skip of rewriting module: scipy._lib.messagestream [assertion]
+      early skip of rewriting module: scipy.spatial._spherical_voronoi [assertion]
+      early skip of rewriting module: scipy.spatial._voronoi [assertion]
+      early skip of rewriting module: scipy.spatial._plotutils [assertion]
+      early skip of rewriting module: scipy.spatial._procrustes [assertion]
+      early skip of rewriting module: scipy.spatial._geometric_slerp [assertion]
+      early skip of rewriting module: scipy.spatial.distance [assertion]
+      early skip of rewriting module: scipy.spatial._distance_wrap [assertion]
+      early skip of rewriting module: scipy.spatial._hausdorff [assertion]
+      early skip of rewriting module: scipy.special [assertion]
+      early skip of rewriting module: scipy.special._sf_error [assertion]
+      early skip of rewriting module: scipy.special._ufuncs [assertion]
+      early skip of rewriting module: scipy.special._ufuncs_cxx [assertion]
+      early skip of rewriting module: scipy.special._special_ufuncs [assertion]
+      early skip of rewriting module: scipy.special._support_alternative_backends [assertion]
+      early skip of rewriting module: scipy.special._basic [assertion]
+      early skip of rewriting module: scipy.special._gufuncs [assertion]
+      early skip of rewriting module: scipy.special._specfun [assertion]
+      early skip of rewriting module: scipy.special._comb [assertion]
+      early skip of rewriting module: scipy.special._logsumexp [assertion]
+      early skip of rewriting module: scipy.special._orthogonal [assertion]
+      early skip of rewriting module: scipy.special._spfun_stats [assertion]
+      early skip of rewriting module: scipy.special._ellip_harm [assertion]
+      early skip of rewriting module: scipy.special._ellip_harm_2 [assertion]
+      early skip of rewriting module: scipy.special._lambertw [assertion]
+      early skip of rewriting module: scipy.special._spherical_bessel [assertion]
+      early skip of rewriting module: scipy.special.add_newdocs [assertion]
+      early skip of rewriting module: scipy.special.basic [assertion]
+      early skip of rewriting module: scipy.special.orthogonal [assertion]
+      early skip of rewriting module: scipy.special.specfun [assertion]
+      early skip of rewriting module: scipy.special.sf_error [assertion]
+      early skip of rewriting module: scipy.special.spfun_stats [assertion]
+      early skip of rewriting module: scipy.spatial._distance_pybind [assertion]
+      early skip of rewriting module: scipy.spatial.ckdtree [assertion]
+      early skip of rewriting module: scipy.spatial.kdtree [assertion]
+      early skip of rewriting module: scipy.spatial.qhull [assertion]
+      early skip of rewriting module: scipy.spatial.transform [assertion]
+      early skip of rewriting module: scipy.spatial.transform._rotation [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: scipy.spatial.transform._rotation_groups [assertion]
+      early skip of rewriting module: scipy.constants [assertion]
+      early skip of rewriting module: scipy.constants._codata [assertion]
+      early skip of rewriting module: scipy.constants._constants [assertion]
+      early skip of rewriting module: scipy.constants.codata [assertion]
+      early skip of rewriting module: scipy.constants.constants [assertion]
+      early skip of rewriting module: scipy.spatial.transform._rotation_spline [assertion]
+      early skip of rewriting module: scipy.spatial.transform.rotation [assertion]
+      early skip of rewriting module: scipy.optimize [assertion]
+      early skip of rewriting module: scipy.optimize._optimize [assertion]
+      early skip of rewriting module: scipy.optimize._linesearch [assertion]
+      early skip of rewriting module: scipy.optimize._dcsrch [assertion]
+      early skip of rewriting module: scipy.optimize._numdiff [assertion]
+      early skip of rewriting module: scipy.optimize._group_columns [assertion]
+      early skip of rewriting module: scipy.optimize._differentiable_functions [assertion]
+      early skip of rewriting module: scipy.optimize._hessian_update_strategy [assertion]
+      early skip of rewriting module: scipy.optimize._minimize [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_dogleg [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_ncg [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_krylov [assertion]
+      early skip of rewriting module: scipy.optimize._trlib [assertion]
+      early skip of rewriting module: scipy.optimize._trlib._trlib [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_exact [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.minimize_trustregion_constr [assertion]
+      early skip of rewriting module: scipy.optimize._constraints [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.equality_constrained_sqp [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.projections [assertion]
+      early skip of rewriting module: sksparse [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.qp_subproblem [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.canonical_constraint [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.tr_interior_point [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.report [assertion]
+      early skip of rewriting module: scipy.optimize._lbfgsb_py [assertion]
+      early skip of rewriting module: scipy.optimize._lbfgsb [assertion]
+      early skip of rewriting module: scipy.optimize._tnc [assertion]
+      early skip of rewriting module: scipy.optimize._moduleTNC [assertion]
+      early skip of rewriting module: scipy.optimize._cobyla_py [assertion]
+      early skip of rewriting module: scipy.optimize._cobyla [assertion]
+      early skip of rewriting module: scipy.optimize._cobyqa_py [assertion]
+      early skip of rewriting module: scipy.optimize._slsqp_py [assertion]
+      early skip of rewriting module: scipy.optimize._slsqp [assertion]
+      early skip of rewriting module: scipy.optimize._root [assertion]
+      early skip of rewriting module: scipy.optimize._minpack_py [assertion]
+      early skip of rewriting module: scipy.optimize._minpack [assertion]
+      early skip of rewriting module: scipy.optimize._lsq [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.least_squares [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.trf [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.common [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.dogbox [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.lsq_linear [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.trf_linear [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.givens_elimination [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.bvls [assertion]
+      early skip of rewriting module: scipy.optimize._spectral [assertion]
+      early skip of rewriting module: scipy.optimize._nonlin [assertion]
+      early skip of rewriting module: scipy.optimize._root_scalar [assertion]
+      early skip of rewriting module: scipy.optimize._zeros_py [assertion]
+      early skip of rewriting module: scipy.optimize._zeros [assertion]
+      early skip of rewriting module: scipy.optimize._nnls [assertion]
+      early skip of rewriting module: scipy.optimize._basinhopping [assertion]
+      early skip of rewriting module: scipy.optimize._linprog [assertion]
+      early skip of rewriting module: scipy.optimize._linprog_highs [assertion]
+      early skip of rewriting module: scipy.optimize._highs [assertion]
+      early skip of rewriting module: scipy.optimize._highs._highs_wrapper [assertion]
+      early skip of rewriting module: scipy.optimize._highs._highs_constants [assertion]
+      early skip of rewriting module: scipy.optimize._linprog_ip [assertion]
+      early skip of rewriting module: scipy.optimize._linprog_util [assertion]
+      early skip of rewriting module: scipy.optimize._remove_redundancy [assertion]
+      early skip of rewriting module: scipy.linalg.interpolative [assertion]
+      early skip of rewriting module: scipy.linalg._interpolative_backend [assertion]
+      early skip of rewriting module: scipy.linalg._interpolative [assertion]
+      early skip of rewriting module: sksparse [assertion]
+      early skip of rewriting module: scikits [assertion]
+      early skip of rewriting module: scipy.optimize._linprog_simplex [assertion]
+      early skip of rewriting module: scipy.optimize._linprog_rs [assertion]
+      early skip of rewriting module: scipy.optimize._bglu_dense [assertion]
+      early skip of rewriting module: scipy.optimize._linprog_doc [assertion]
+      early skip of rewriting module: scipy.optimize._lsap [assertion]
+      early skip of rewriting module: scipy.optimize._differentialevolution [assertion]
+      early skip of rewriting module: scipy.optimize._isotonic [assertion]
+      early skip of rewriting module: scipy.optimize._pava_pybind [assertion]
+      early skip of rewriting module: scipy.optimize._shgo [assertion]
+      early skip of rewriting module: scipy.optimize._shgo_lib [assertion]
+      early skip of rewriting module: scipy.optimize._shgo_lib._complex [assertion]
+      early skip of rewriting module: scipy.optimize._shgo_lib._vertex [assertion]
+      early skip of rewriting module: scipy.optimize._dual_annealing [assertion]
+      early skip of rewriting module: scipy.optimize._qap [assertion]
+      early skip of rewriting module: scipy.optimize._direct_py [assertion]
+      early skip of rewriting module: scipy.optimize._direct [assertion]
+      early skip of rewriting module: scipy.optimize._milp [assertion]
+      early skip of rewriting module: scipy.optimize.cobyla [assertion]
+      early skip of rewriting module: scipy.optimize.lbfgsb [assertion]
+      early skip of rewriting module: scipy.optimize.linesearch [assertion]
+      early skip of rewriting module: scipy.optimize.minpack [assertion]
+      early skip of rewriting module: scipy.optimize.minpack2 [assertion]
+      early skip of rewriting module: scipy.optimize.moduleTNC [assertion]
+      early skip of rewriting module: scipy.optimize.nonlin [assertion]
+      early skip of rewriting module: scipy.optimize.optimize [assertion]
+      early skip of rewriting module: scipy.optimize.slsqp [assertion]
+      early skip of rewriting module: scipy.optimize.tnc [assertion]
+      early skip of rewriting module: scipy.optimize.zeros [assertion]
+      early skip of rewriting module: scipy.stats.distributions [assertion]
+      early skip of rewriting module: scipy.stats._distn_infrastructure [assertion]
+      early skip of rewriting module: scipy._lib.doccer [assertion]
+      early skip of rewriting module: scipy.stats._distr_params [assertion]
+      early skip of rewriting module: scipy.integrate [assertion]
+      early skip of rewriting module: scipy.integrate._quadrature [assertion]
+      early skip of rewriting module: scipy.integrate._odepack_py [assertion]
+      early skip of rewriting module: scipy.integrate._odepack [assertion]
+      early skip of rewriting module: scipy.integrate._quadpack_py [assertion]
+      early skip of rewriting module: scipy.integrate._quadpack [assertion]
+      early skip of rewriting module: scipy.integrate._ode [assertion]
+      early skip of rewriting module: scipy.integrate._vode [assertion]
+      early skip of rewriting module: scipy.integrate._dop [assertion]
+      early skip of rewriting module: scipy.integrate._lsoda [assertion]
+      early skip of rewriting module: scipy.integrate._bvp [assertion]
+      early skip of rewriting module: scipy.integrate._ivp [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.ivp [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.bdf [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.common [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.base [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.radau [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.rk [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.dop853_coefficients [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.lsoda [assertion]
+      early skip of rewriting module: scipy.integrate._quad_vec [assertion]
+      early skip of rewriting module: scipy.integrate.dop [assertion]
+      early skip of rewriting module: scipy.integrate.lsoda [assertion]
+      early skip of rewriting module: scipy.integrate.vode [assertion]
+      early skip of rewriting module: scipy.integrate.odepack [assertion]
+      early skip of rewriting module: scipy.integrate.quadpack [assertion]
+      early skip of rewriting module: scipy._lib._finite_differences [assertion]
+      early skip of rewriting module: scipy.stats._constants [assertion]
+      early skip of rewriting module: scipy.stats._censored_data [assertion]
+      early skip of rewriting module: scipy.stats._continuous_distns [assertion]
+      early skip of rewriting module: scipy.interpolate [assertion]
+      early skip of rewriting module: scipy.interpolate._interpolate [assertion]
+      early skip of rewriting module: scipy.interpolate._fitpack_py [assertion]
+      early skip of rewriting module: scipy.interpolate._fitpack_impl [assertion]
+      early skip of rewriting module: scipy.interpolate._fitpack [assertion]
+      early skip of rewriting module: scipy.interpolate._dfitpack [assertion]
+      early skip of rewriting module: scipy.interpolate._bsplines [assertion]
+      early skip of rewriting module: scipy.interpolate._bspl [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: scipy.interpolate._polyint [assertion]
+      early skip of rewriting module: scipy.interpolate._ppoly [assertion]
+      early skip of rewriting module: scipy.interpolate.interpnd [assertion]
+      early skip of rewriting module: scipy.interpolate._fitpack2 [assertion]
+      early skip of rewriting module: scipy.interpolate._rbf [assertion]
+      early skip of rewriting module: scipy.interpolate._rbfinterp [assertion]
+      early skip of rewriting module: scipy.interpolate._rbfinterp_pythran [assertion]
+      early skip of rewriting module: scipy.interpolate._cubic [assertion]
+      early skip of rewriting module: scipy.interpolate._ndgriddata [assertion]
+      early skip of rewriting module: scipy.interpolate._pade [assertion]
+      early skip of rewriting module: scipy.interpolate._rgi [assertion]
+      early skip of rewriting module: scipy.interpolate._rgi_cython [assertion]
+      early skip of rewriting module: scipy.interpolate._ndbspline [assertion]
+      early skip of rewriting module: scipy.interpolate.fitpack [assertion]
+      early skip of rewriting module: scipy.interpolate.fitpack2 [assertion]
+      early skip of rewriting module: scipy.interpolate.interpolate [assertion]
+      early skip of rewriting module: scipy.interpolate.ndgriddata [assertion]
+      early skip of rewriting module: scipy.interpolate.polyint [assertion]
+      early skip of rewriting module: scipy.interpolate.rbf [assertion]
+      early skip of rewriting module: scipy.stats._stats [assertion]
+      early skip of rewriting module: scipy.special.cython_special [assertion]
+      early skip of rewriting module: scipy.stats._tukeylambda_stats [assertion]
+      early skip of rewriting module: scipy.stats._ksstats [assertion]
+      early skip of rewriting module: scipy.stats._discrete_distns [assertion]
+      early skip of rewriting module: scipy.stats._biasedurn [assertion]
+      early skip of rewriting module: scipy.stats._levy_stable [assertion]
+      early skip of rewriting module: scipy.stats._levy_stable.levyst [assertion]
+      early skip of rewriting module: scipy.stats._entropy [assertion]
+      early skip of rewriting module: scipy.stats._axis_nan_policy [assertion]
+      early skip of rewriting module: scipy._lib._docscrape [assertion]
+      early skip of rewriting module: pydoc [assertion]
+      early skip of rewriting module: scipy.stats._mstats_basic [assertion]
+      early skip of rewriting module: scipy._lib._bunch [assertion]
+      early skip of rewriting module: scipy.stats._stats_mstats_common [assertion]
+      early skip of rewriting module: scipy.stats._stats_pythran [assertion]
+      early skip of rewriting module: scipy.stats._hypotests [assertion]
+      early skip of rewriting module: scipy.stats._common [assertion]
+      early skip of rewriting module: scipy.fft [assertion]
+      early skip of rewriting module: scipy.fft._basic [assertion]
+      early skip of rewriting module: scipy._lib.uarray [assertion]
+      early skip of rewriting module: uarray [assertion]
+      early skip of rewriting module: scipy._lib._uarray [assertion]
+      early skip of rewriting module: scipy._lib._uarray._backend [assertion]
+      early skip of rewriting module: scipy._lib._uarray._uarray [assertion]
+      early skip of rewriting module: scipy.fft._realtransforms [assertion]
+      early skip of rewriting module: scipy.fft._fftlog [assertion]
+      early skip of rewriting module: scipy.fft._fftlog_backend [assertion]
+      early skip of rewriting module: scipy.fft._helper [assertion]
+      early skip of rewriting module: scipy.fft._pocketfft [assertion]
+      early skip of rewriting module: scipy.fft._pocketfft.basic [assertion]
+      early skip of rewriting module: scipy.fft._pocketfft.pypocketfft [assertion]
+      early skip of rewriting module: scipy.fft._pocketfft.helper [assertion]
+      early skip of rewriting module: scipy.fft._pocketfft.realtransforms [assertion]
+      early skip of rewriting module: scipy.fft._backend [assertion]
+      early skip of rewriting module: scipy.fft._basic_backend [assertion]
+      early skip of rewriting module: scipy.fft._realtransforms_backend [assertion]
+      early skip of rewriting module: scipy.stats._resampling [assertion]
+      early skip of rewriting module: scipy.stats._binomtest [assertion]
+      early skip of rewriting module: scipy.stats._variation [assertion]
+      early skip of rewriting module: scipy.stats._morestats [assertion]
+      early skip of rewriting module: scipy.stats._ansari_swilk_statistics [assertion]
+      early skip of rewriting module: scipy.stats._wilcoxon [assertion]
+      early skip of rewriting module: scipy.stats._fit [assertion]
+      early skip of rewriting module: scipy.stats.contingency [assertion]
+      early skip of rewriting module: scipy.stats._relative_risk [assertion]
+      early skip of rewriting module: scipy.stats._crosstab [assertion]
+      early skip of rewriting module: scipy.stats._odds_ratio [assertion]
+      early skip of rewriting module: scipy.stats._multicomp [assertion]
+      early skip of rewriting module: scipy.stats._qmc [assertion]
+      early skip of rewriting module: scipy.stats._sobol [assertion]
+      early skip of rewriting module: scipy.stats._qmc_cy [assertion]
+      early skip of rewriting module: scipy.stats._binned_statistic [assertion]
+      early skip of rewriting module: scipy.stats._kde [assertion]
+      early skip of rewriting module: scipy.stats._mvn [assertion]
+      early skip of rewriting module: scipy.stats.mstats [assertion]
+      early skip of rewriting module: scipy.stats._mstats_extras [assertion]
+      early skip of rewriting module: scipy.stats.qmc [assertion]
+      early skip of rewriting module: scipy.stats._multivariate [assertion]
+      early skip of rewriting module: scipy.stats._covariance [assertion]
+      early skip of rewriting module: scipy.stats._rcont [assertion]
+      early skip of rewriting module: scipy.stats._rcont.rcont [assertion]
+      early skip of rewriting module: scipy.stats._qmvnt [assertion]
+      early skip of rewriting module: scipy.stats._rvs_sampling [assertion]
+      early skip of rewriting module: scipy.stats.sampling [assertion]
+      early skip of rewriting module: scipy.stats._sampling [assertion]
+      early skip of rewriting module: scipy.stats._unuran [assertion]
+      early skip of rewriting module: scipy.stats._unuran.unuran_wrapper [assertion]
+      find_module called for: scipy.stats._page_trend_test [assertion]
+      matched test file '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/scipy/stats/_page_trend_test.py' [assertion]
+      found cached rewritten pyc for /Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/scipy/stats/_page_trend_test.py [assertion]
+      early skip of rewriting module: scipy.stats._mannwhitneyu [assertion]
+      find_module called for: scipy.stats._bws_test [assertion]
+      matched test file '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/scipy/stats/_bws_test.py' [assertion]
+      found cached rewritten pyc for /Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/scipy/stats/_bws_test.py [assertion]
+      early skip of rewriting module: scipy.stats._sensitivity_analysis [assertion]
+      early skip of rewriting module: scipy.stats._survival [assertion]
+      early skip of rewriting module: scipy.stats._mgc [assertion]
+      early skip of rewriting module: scipy.ndimage [assertion]
+      early skip of rewriting module: scipy.ndimage._filters [assertion]
+      early skip of rewriting module: scipy.ndimage._ni_support [assertion]
+      early skip of rewriting module: scipy.ndimage._nd_image [assertion]
+      early skip of rewriting module: scipy.ndimage._ni_docstrings [assertion]
+      early skip of rewriting module: scipy.ndimage._fourier [assertion]
+      early skip of rewriting module: scipy.ndimage._interpolation [assertion]
+      early skip of rewriting module: scipy.ndimage._measurements [assertion]
+      early skip of rewriting module: scipy.ndimage._ni_label [assertion]
+      early skip of rewriting module: scipy.ndimage._morphology [assertion]
+      early skip of rewriting module: scipy.ndimage.filters [assertion]
+      early skip of rewriting module: scipy.ndimage.fourier [assertion]
+      early skip of rewriting module: scipy.ndimage.interpolation [assertion]
+      early skip of rewriting module: scipy.ndimage.measurements [assertion]
+      early skip of rewriting module: scipy.ndimage.morphology [assertion]
+      early skip of rewriting module: scipy.stats.biasedurn [assertion]
+      early skip of rewriting module: scipy.stats.kde [assertion]
+      early skip of rewriting module: scipy.stats.morestats [assertion]
+      early skip of rewriting module: scipy.stats.mstats_basic [assertion]
+      early skip of rewriting module: scipy.stats.mstats_extras [assertion]
+      early skip of rewriting module: scipy.stats.mvn [assertion]
+      early skip of rewriting module: scipy.stats.stats [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_cli.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_cli.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_cli.py>
+            name: CliRunner
+            obj: <class 'typer.testing.CliRunner'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_cli.py>
+            name: app
+            obj: <typer.main.Typer object at 0x103d7d4c0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_cli.py>
+            name: runner
+            obj: <typer.testing.CliRunner object at 0x103685c40>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_cli.py>
+            name: test_cli
+            obj: <function test_cli at 0x1036df7e0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x102079e20>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_cli>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_cli.py>
+            name: test_cli_profit
+            obj: <function test_cli_profit at 0x1036dfa60>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x10207ac30>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_cli_profit>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_cli.py' lenresult=2 outcome='passed'> [hook]
+    genitems <Function test_cli> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_cli>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_cli_profit> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_cli_profit>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_cli.py' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module test_domain.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_domain.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_domain.py>
+      find_module called for: test_domain [assertion]
+      matched test file '/Users/charlie/Developer/Python/options/tests/test_domain.py' [assertion]
+      found cached rewritten pyc for /Users/charlie/Developer/Python/options/tests/test_domain.py [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_domain.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_domain.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/Users/charlie/Developer/Python/options/.venv/lib/python3.12/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_domain.py>
+            name: Option
+            obj: <class 'options.domain.Option'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_domain.py>
+            name: test_get_option_values
+            obj: <function test_get_option_values at 0x107be2200>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x107bbf4a0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_get_option_values>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_domain.py>
+            name: test_get_option_pnl
+            obj: <function test_get_option_pnl at 0x107be22a0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x107bbe4b0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_get_option_pnl>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_domain.py' lenresult=2 outcome='passed'> [hook]
+    genitems <Function test_get_option_values> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_get_option_values>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_get_option_pnl> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_get_option_pnl>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_domain.py' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests' lenresult=3 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport '.' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x101385940>
+          items: [<Function test_playwright_runs[chromium]>, <Function test_generate_prices[chromium]>, <Function test_cli>, <Function test_cli_profit>, <Function test_get_option_values>, <Function test_get_option_pnl>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x101385940>
+            items: [<Function test_playwright_runs[chromium]>, <Function test_generate_prices[chromium]>, <Function test_cli>, <Function test_cli_profit>, <Function test_get_option_values>, <Function test_get_option_pnl>]
+            start_path: /Users/charlie/Developer/Python/options
+            startdir: /Users/charlie/Developer/Python/options
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=6>
+      pytest_runtest_protocol [hook]
+          item: <Function test_playwright_runs[chromium]>
+          nextitem: <Function test_generate_prices[chromium]>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/integration/test_app.py::test_playwright_runs[chromium]
+            location: ('tests/integration/test_app.py', 19, 'test_playwright_runs[chromium]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_playwright_runs[chromium]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='pytestconfig' scope='session' baseid=''>
+              request: <SubRequest 'pytestconfig' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_setup --> <_pytest.config.Config object at 0x101385940> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='delete_output_dir' scope='session' baseid=''>
+              request: <SubRequest 'delete_output_dir' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='base_url' scope='session' baseid=''>
+              request: <SubRequest 'base_url' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_setup -->  [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_verify_url' scope='session' baseid=''>
+              request: <SubRequest '_verify_url' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_type_launch_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_type_launch_args' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_setup --> [hook]
+              headless: False
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='playwright' scope='session' baseid=''>
+              request: <SubRequest 'playwright' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_setup --> <playwright._impl._playwright.Playwright object at 0x104dfa060> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_name' scope='session' baseid=''>
+              request: <SubRequest 'browser_name' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_setup --> chromium [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_setup --> <BrowserType name=chromium executable_path=/Users/charlie/Library/Caches/ms-playwright/chromium-1124/chrome-mac/Chromium.app/Contents/MacOS/Chromium> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_setup --> <function launch_browser.<locals>.launch at 0x107be2520> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser' scope='session' baseid=''>
+              request: <SubRequest 'browser' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_setup --> <Browser type=<BrowserType name=chromium executable_path=/Users/charlie/Library/Caches/ms-playwright/chromium-1124/chrome-mac/Chromium.app/Contents/MacOS/Chromium> version=127.0.6533.17> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='device' scope='session' baseid=''>
+              request: <SubRequest 'device' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_pw_artifacts_folder' scope='session' baseid=''>
+              request: <SubRequest '_pw_artifacts_folder' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_setup --> <TemporaryDirectory '/var/folders/4q/rnlrf6cj4xl6xtgyhfr4sycr0000gn/T/playwright-pytest-b2jd9f0i'> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_setup --> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='before_module' scope='module' baseid='tests/integration'>
+              request: <SubRequest 'before_module' for <Function test_playwright_runs[chromium]>>
+          early skip of rewriting module: netrc [assertion]
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_setup --> <pytest_playwright.pytest_playwright.ArtifactsRecorder object at 0x107b90050> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_setup --> <function new_context.<locals>._new_context at 0x10807a840> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_setup --> <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=/Users/charlie/Library/Caches/ms-playwright/chromium-1124/chrome-mac/Chromium.app/Contents/MacOS/Chromium> version=127.0.6533.17>> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_setup --> <Page url='about:blank'> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='before_test' scope='function' baseid='tests/integration'>
+              request: <SubRequest 'before_test' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_setup --> None [hook]
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_playwright_runs[chromium]>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/integration/test_app.py::test_playwright_runs[chromium]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/integration/test_app.py::test_playwright_runs[chromium]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/integration/test_app.py::test_playwright_runs[chromium]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x101385940>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_playwright_runs[chromium]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_playwright_runs[chromium]>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_playwright_runs[chromium]>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/integration/test_app.py::test_playwright_runs[chromium]' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/integration/test_app.py::test_playwright_runs[chromium]' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/integration/test_app.py::test_playwright_runs[chromium]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x101385940>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_playwright_runs[chromium]>
+            nextitem: <Function test_generate_prices[chromium]>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='before_test' scope='function' baseid='tests/integration'>
+              request: <SubRequest 'before_test' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='before_test' scope='function' baseid='tests/integration'>
+              request: <SubRequest 'before_test' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_playwright_runs[chromium]>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/integration/test_app.py::test_playwright_runs[chromium]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/integration/test_app.py::test_playwright_runs[chromium]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/integration/test_app.py::test_playwright_runs[chromium]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x101385940>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/integration/test_app.py::test_playwright_runs[chromium]
+            location: ('tests/integration/test_app.py', 19, 'test_playwright_runs[chromium]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_generate_prices[chromium]>
+          nextitem: <Function test_cli>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/integration/test_app.py::test_generate_prices[chromium]
+            location: ('tests/integration/test_app.py', 23, 'test_generate_prices[chromium]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_generate_prices[chromium]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_setup --> <pytest_playwright.pytest_playwright.ArtifactsRecorder object at 0x108166e70> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_setup --> <function new_context.<locals>._new_context at 0x108184cc0> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_setup --> <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=/Users/charlie/Library/Caches/ms-playwright/chromium-1124/chrome-mac/Chromium.app/Contents/MacOS/Chromium> version=127.0.6533.17>> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_setup --> <Page url='about:blank'> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='before_test' scope='function' baseid='tests/integration'>
+              request: <SubRequest 'before_test' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='option_fixture' scope='function' baseid='tests'>
+              request: <SubRequest 'option_fixture' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_setup --> [hook]
+              inputs: {'current_price': 100, 'strike_price': 100, 'risk_free_rate': 0.1, 'days_to_expiry': 1, 'annualised_volatility': 0.3}
+              prices: {'call': 16.73, 'put': 7.22}
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_generate_prices[chromium]>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/integration/test_app.py::test_generate_prices[chromium]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/integration/test_app.py::test_generate_prices[chromium]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/integration/test_app.py::test_generate_prices[chromium]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x101385940>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_generate_prices[chromium]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_generate_prices[chromium]>
+        pytest_runtest_makereport [hook]
+            item: <Function test_generate_prices[chromium]>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError('Locator expected to be visible\nActual value: <element(s) not found> \nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for get_by_text("16.73")\n') tblen=39>>
+        finish pytest_runtest_makereport --> <TestReport 'tests/integration/test_app.py::test_generate_prices[chromium]' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/integration/test_app.py::test_generate_prices[chromium]' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/integration/test_app.py::test_generate_prices[chromium]' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x101385940>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <Function test_generate_prices[chromium]>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError('Locator expected to be visible\nActual value: <element(s) not found> \nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for get_by_text("16.73")\n') tblen=39>>
+            report: <TestReport 'tests/integration/test_app.py::test_generate_prices[chromium]' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_generate_prices[chromium]>
+            nextitem: <Function test_cli>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='option_fixture' scope='function' baseid='tests'>
+              request: <SubRequest 'option_fixture' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='before_test' scope='function' baseid='tests/integration'>
+              request: <SubRequest 'before_test' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='before_test' scope='function' baseid='tests/integration'>
+              request: <SubRequest 'before_test' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='before_module' scope='module' baseid='tests/integration'>
+              request: <SubRequest 'before_module' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_generate_prices[chromium]>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/integration/test_app.py::test_generate_prices[chromium]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/integration/test_app.py::test_generate_prices[chromium]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/integration/test_app.py::test_generate_prices[chromium]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x101385940>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/integration/test_app.py::test_generate_prices[chromium]
+            location: ('tests/integration/test_app.py', 23, 'test_generate_prices[chromium]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_cli>
+          nextitem: <Function test_cli_profit>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_cli.py::test_cli
+            location: ('tests/test_cli.py', 7, 'test_cli')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_cli>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='option_fixture' scope='function' baseid='tests'>
+              request: <SubRequest 'option_fixture' for <Function test_cli>>
+          finish pytest_fixture_setup --> [hook]
+              inputs: {'current_price': 100, 'strike_price': 100, 'risk_free_rate': 0.1, 'days_to_expiry': 1, 'annualised_volatility': 0.3}
+              prices: {'call': 16.73, 'put': 7.22}
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_cli>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_cli.py::test_cli' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_cli.py::test_cli' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_cli.py::test_cli' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x101385940>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_cli>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_cli>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_cli>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_cli.py::test_cli' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_cli.py::test_cli' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_cli.py::test_cli' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x101385940>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_cli>
+            nextitem: <Function test_cli_profit>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='option_fixture' scope='function' baseid='tests'>
+              request: <SubRequest 'option_fixture' for <Function test_cli>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_cli>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_cli.py::test_cli' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_cli.py::test_cli' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_cli.py::test_cli' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x101385940>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_cli.py::test_cli
+            location: ('tests/test_cli.py', 7, 'test_cli')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_cli_profit>
+          nextitem: <Function test_get_option_values>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_cli.py::test_cli_profit
+            location: ('tests/test_cli.py', 16, 'test_cli_profit')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_cli_profit>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='option_fixture' scope='function' baseid='tests'>
+              request: <SubRequest 'option_fixture' for <Function test_cli_profit>>
+          finish pytest_fixture_setup --> [hook]
+              inputs: {'current_price': 100, 'strike_price': 100, 'risk_free_rate': 0.1, 'days_to_expiry': 1, 'annualised_volatility': 0.3}
+              prices: {'call': 16.73, 'put': 7.22}
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_cli_profit>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_cli.py::test_cli_profit' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_cli.py::test_cli_profit' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_cli.py::test_cli_profit' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x101385940>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_cli_profit>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_cli_profit>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_cli_profit>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_cli.py::test_cli_profit' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_cli.py::test_cli_profit' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_cli.py::test_cli_profit' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x101385940>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_cli_profit>
+            nextitem: <Function test_get_option_values>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='option_fixture' scope='function' baseid='tests'>
+              request: <SubRequest 'option_fixture' for <Function test_cli_profit>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_cli_profit>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_cli.py::test_cli_profit' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_cli.py::test_cli_profit' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_cli.py::test_cli_profit' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x101385940>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_cli.py::test_cli_profit
+            location: ('tests/test_cli.py', 16, 'test_cli_profit')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_get_option_values>
+          nextitem: <Function test_get_option_pnl>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_domain.py::test_get_option_values
+            location: ('tests/test_domain.py', 3, 'test_get_option_values')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_get_option_values>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='option_fixture' scope='function' baseid='tests'>
+              request: <SubRequest 'option_fixture' for <Function test_get_option_values>>
+          finish pytest_fixture_setup --> [hook]
+              inputs: {'current_price': 100, 'strike_price': 100, 'risk_free_rate': 0.1, 'days_to_expiry': 1, 'annualised_volatility': 0.3}
+              prices: {'call': 16.73, 'put': 7.22}
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_get_option_values>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_domain.py::test_get_option_values' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_domain.py::test_get_option_values' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_domain.py::test_get_option_values' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x101385940>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_get_option_values>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_get_option_values>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_get_option_values>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_domain.py::test_get_option_values' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_domain.py::test_get_option_values' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_domain.py::test_get_option_values' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x101385940>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_get_option_values>
+            nextitem: <Function test_get_option_pnl>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='option_fixture' scope='function' baseid='tests'>
+              request: <SubRequest 'option_fixture' for <Function test_get_option_values>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_get_option_values>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_domain.py::test_get_option_values' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_domain.py::test_get_option_values' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_domain.py::test_get_option_values' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x101385940>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_domain.py::test_get_option_values
+            location: ('tests/test_domain.py', 3, 'test_get_option_values')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_get_option_pnl>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_domain.py::test_get_option_pnl
+            location: ('tests/test_domain.py', 10, 'test_get_option_pnl')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_get_option_pnl>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='option_fixture' scope='function' baseid='tests'>
+              request: <SubRequest 'option_fixture' for <Function test_get_option_pnl>>
+          finish pytest_fixture_setup --> [hook]
+              inputs: {'current_price': 100, 'strike_price': 100, 'risk_free_rate': 0.1, 'days_to_expiry': 1, 'annualised_volatility': 0.3}
+              prices: {'call': 16.73, 'put': 7.22}
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_get_option_pnl>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_domain.py::test_get_option_pnl' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_domain.py::test_get_option_pnl' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_domain.py::test_get_option_pnl' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x101385940>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_get_option_pnl>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_get_option_pnl>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_get_option_pnl>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_domain.py::test_get_option_pnl' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_domain.py::test_get_option_pnl' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_domain.py::test_get_option_pnl' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x101385940>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_get_option_pnl>
+            nextitem: None
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='option_fixture' scope='function' baseid='tests'>
+              request: <SubRequest 'option_fixture' for <Function test_get_option_pnl>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_pw_artifacts_folder' scope='session' baseid=''>
+              request: <SubRequest '_pw_artifacts_folder' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='device' scope='session' baseid=''>
+              request: <SubRequest 'device' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='session' baseid=''>
+              request: <SubRequest 'browser' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='session' baseid=''>
+              request: <SubRequest 'browser' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_name' scope='session' baseid=''>
+              request: <SubRequest 'browser_name' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='playwright' scope='session' baseid=''>
+              request: <SubRequest 'playwright' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type_launch_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_type_launch_args' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_verify_url' scope='session' baseid=''>
+              request: <SubRequest '_verify_url' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_verify_url' scope='session' baseid=''>
+              request: <SubRequest '_verify_url' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='base_url' scope='session' baseid=''>
+              request: <SubRequest 'base_url' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='delete_output_dir' scope='session' baseid=''>
+              request: <SubRequest 'delete_output_dir' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_generate_prices[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='device' scope='session' baseid=''>
+              request: <SubRequest 'device' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type_launch_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_type_launch_args' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='delete_output_dir' scope='session' baseid=''>
+              request: <SubRequest 'delete_output_dir' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='pytestconfig' scope='session' baseid=''>
+              request: <SubRequest 'pytestconfig' for <Function test_playwright_runs[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_get_option_pnl>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_domain.py::test_get_option_pnl' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_domain.py::test_get_option_pnl' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_domain.py::test_get_option_pnl' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x101385940>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_domain.py::test_get_option_pnl
+            location: ('tests/test_domain.py', 10, 'test_get_option_pnl')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session  exitstatus=<ExitCode.TESTS_FAILED: 1> testsfailed=1 testscollected=6>
+        exitstatus: 1
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x10205ce60>
+          exitstatus: 1
+          config: <_pytest.config.Config object at 0x101385940>
+      early skip of rewriting module: pygments.lexers.python [assertion]
+      early skip of rewriting module: pygments.unistring [assertion]
+      early skip of rewriting module: pygments.formatters [assertion]
+      early skip of rewriting module: pygments.formatters._mapping [assertion]
+      early skip of rewriting module: pygments.formatters.terminal [assertion]
+      early skip of rewriting module: pygments.formatter [assertion]
+      early skip of rewriting module: pygments.console [assertion]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/integration/test_app.py::test_generate_prices[chromium]' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x101385940>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x101385940>
+    finish pytest_unconfigure --> [] [hook]

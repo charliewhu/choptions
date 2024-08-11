@@ -1,3 +1,4 @@
+import typing as t
 import typer
 
 from options import domain
@@ -11,17 +12,23 @@ def get_option_prices(
     strike_price: float,
     risk_free_rate: float,
     days_to_expiry: int,
-    annualized_volatility: float,
+    annualised_volatility: float,
+    purchase_price: t.Optional[float] = None,
 ):
-    prices = domain.Option(
+    option = domain.Option(
         current_price,
         strike_price,
         risk_free_rate,
         days_to_expiry,
-        annualized_volatility,
-    ).prices()
+        annualised_volatility,
+        purchase_price,
+    )
 
-    print(prices)
+    if purchase_price:
+        print(option.profit())
+        return
+
+    print(option.prices())
 
 
 def main():
