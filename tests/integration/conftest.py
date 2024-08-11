@@ -50,3 +50,27 @@ def run_app():
         yield 1
     finally:
         p.kill()
+
+
+@pytest.fixture
+def input_initial_parameters(page, option_fixture):
+    """Put initial values into the app Form"""
+
+    page.get_by_label("Current Price").fill(
+        str(option_fixture["inputs"]["current_price"])
+    )
+    page.get_by_label("Strike Price").fill(
+        str(option_fixture["inputs"]["strike_price"])
+    )
+    page.get_by_label("Days to Expiry").fill(
+        str(option_fixture["inputs"]["days_to_expiry"])
+    )
+    page.get_by_label("Risk Free Rate").fill(
+        str(option_fixture["inputs"]["risk_free_rate"])
+    )
+    page.get_by_label("Annualised Volatility").fill(
+        str(option_fixture["inputs"]["annualised_volatility"])
+    )
+
+    # ensure page refresh on value change
+    page.keyboard.press("Enter")

@@ -47,7 +47,7 @@ class Option:
         return round(put, 2)
 
     def prices(self):
-        return float(self._call()), float(self._put())
+        return self._call(), self._put()
 
     def profit(self):
         if self.purchase_price is None:
