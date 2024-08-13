@@ -1,4 +1,7 @@
+import typing as t
+
 import numpy as np
+import pandas as pd
 from scipy.stats import norm
 
 
@@ -56,3 +59,51 @@ class Option:
         prices = self.prices()
 
         return tuple(round(price - self.purchase_price, 2) for price in prices)
+
+    def _matrix(self, index: t.Literal[0, 1]):
+        # min + max prices
+        # min + max volatilities
+        # create option with min values
+        # loop to produce prices for each
+        # change the prices and vol in loop
+        num_rows_cols = 9
+        tolerance = 0.1
+        tolerances = (-tolerance, tolerance)
+
+        min_price, max_price = (self.current_price * (1 + i) for i in tolerances)
+        min_vol, max_vol = (self.annualised_volatility * (1 + i) for i in tolerances)
+
+        price_range = np.linspace(min_price, max_price, num=num_rows_cols)
+        vol_range = np.linspace(min_vol, max_vol, num=num_rows_cols)
+
+        option = Option(
+            current_price=min_price,
+            strike_price=self.strike_price,
+            risk_free_rate=self.risk_free_rate,
+            days_to_expiry=self.days_to_expiry,
+            annualised_volatility=min_vol,
+        )
+
+        # prices = np.zeros((num_rows_cols, num_rows_cols))
+        prices = pd.DataFrame(
+            index=np.round(vol_range, 5),
+            columns=np.round(price_range, 2),
+        )
+
+        for vol in vol_range:
+            option.annualised_volatility = vol
+
+            for price in price_range:
+                option.current_price = price
+                prices.loc[
+                    np.round(vol, 5),
+                    np.round(price, 2),
+                ] = option.prices()[index]
+
+        return prices
+
+    def call_matrix(self):
+        return self._matrix(index=0)
+
+    def put_matrix(self):
+        return self._matrix(index=1)

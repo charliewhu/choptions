@@ -61,6 +61,7 @@ numpy==2.0.1
     # via streamlit
 packaging==24.1
     # via altair
+    # via plotly
     # via pytest
     # via streamlit
 pandas==2.2.2
@@ -70,6 +71,8 @@ pillow==10.4.0
     # via streamlit
 playwright==1.45.1
     # via pytest-playwright
+plotly==5.23.0
+    # via options
 pluggy==1.5.0
     # via pytest
 protobuf==5.27.3
@@ -118,6 +121,7 @@ smmap==5.0.1
 streamlit==1.37.0
     # via options
 tenacity==8.5.0
+    # via plotly
     # via streamlit
 text-unidecode==1.3
     # via python-slugify

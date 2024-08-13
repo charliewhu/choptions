@@ -18,14 +18,15 @@ def test_get_option_pnl(option_fixture):
     assert result[1] == round(option_fixture["prices"]["put"] - purchase_price, 2)
 
 
-# def test_get_heatmap_figures(option_fixture):
-#     """Generate a heatmap output"""
+def test_get_heatmap_figures(option_fixture):
+    """Generate a heatmap output"""
 
-#     option = Option(**option_fixture["inputs"])
+    option = Option(**option_fixture["inputs"])
 
-#     result = option.heatmap()
+    result = option.call_matrix()
 
-#     # construct 10x10 dataframe to compare to
-
-#     # assert heatmap has call and put prices
-#     # columns == price / volatility / call / put
+    assert result.shape == (9, 9)
+    # assert middle value is current price
+    assert result.iloc[4, 4] == option_fixture["prices"]["call"]
+    # max values ± 10%
+    assert result.columns[0] == option_fixture["inputs"]["current_price"] * 0.9

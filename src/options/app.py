@@ -1,6 +1,7 @@
 import streamlit as st
 
 from options import domain
+from options.heatmap import draw_heatmap
 
 st.set_page_config(page_title="Choptions")
 
@@ -73,7 +74,7 @@ if all([x if x is not None else 0 for x in inputs]):
 
     prices = option.prices()
 
-    st.markdown("### Fair Price")
+    st.markdown("### Current Modelled Price")
 
     price1, price2 = st.columns(2)
     with price1:
@@ -86,8 +87,16 @@ if all([x if x is not None else 0 for x in inputs]):
 
     st.divider()
 
+    st.markdown("#### Call Price Matrix")
+    draw_heatmap(option.call_matrix())
+
+    st.markdown("#### Put Price Matrix")
+    draw_heatmap(option.put_matrix())
+
+    st.divider()
+
 if option and purchase_price:
-    st.markdown("### Profit / Loss")
+    st.markdown("### Current Profit / Loss")
     option.purchase_price = purchase_price
     profit = option.profit()
 
@@ -104,3 +113,9 @@ if option and purchase_price:
             st.success(profit[1])
         else:
             st.error(profit[1])
+
+    st.markdown("#### Long Call Profit Matrix")
+    draw_heatmap(option.call_matrix() - purchase_price)
+
+    st.markdown("#### Long Put Profit Matrix")
+    draw_heatmap(option.put_matrix() - purchase_price)

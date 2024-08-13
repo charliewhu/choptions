@@ -55,12 +55,15 @@ numpy==2.0.1
     # via streamlit
 packaging==24.1
     # via altair
+    # via plotly
     # via streamlit
 pandas==2.2.2
     # via altair
     # via streamlit
 pillow==10.4.0
     # via streamlit
+plotly==5.23.0
+    # via options
 protobuf==5.27.3
     # via streamlit
 pyarrow==17.0.0
@@ -95,6 +98,7 @@ smmap==5.0.1
 streamlit==1.37.0
     # via options
 tenacity==8.5.0
+    # via plotly
     # via streamlit
 toml==0.10.2
     # via streamlit
