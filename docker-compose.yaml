@@ -1,0 +1,16 @@
+services:
+  ui:
+    build: .
+    expose:
+      - 8501
+    volumes:
+      - ./src/:/app/src/
+      - /app/.venv
+    command: streamlit run src/options/app.py
+
+  nginx:
+    build: ./nginx
+    ports:
+      - 7001:7001
+    depends_on:
+      - ui
