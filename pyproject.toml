@@ -2,7 +2,8 @@
 name = "options"
 version = "0.1.0"
 description = "Add your description here"
-authors = [{ name = "Charlie", email = "email@email.com" }]
+readme = "README.md"
+requires-python = ">= 3.12"
 dependencies = [
     "typer>=0.12.3",
     "streamlit>=1.37.0",
@@ -12,31 +13,18 @@ dependencies = [
     "plotly>=5.23.0",
 ]
 
-readme = "README.md"
-requires-python = ">= 3.8"
-
-[tool.rye]
-managed = true
+[tool.uv]
 dev-dependencies = [
     "pytest>=8.3.2",
     "pyright>=1.1.374",
     "pytest-playwright>=0.5.1",
     "playwright>=1.45.1",
+    "ruff>=0.6.4",
 ]
-
-[project.scripts]
-options = 'options.cli:main'
-
-[tool.rye.scripts]
-app = { cmd = "streamlit run src/options/app.py" }
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
-
-
-[tool.hatch.metadata]
-allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/options"]

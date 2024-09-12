@@ -1,3 +1,6 @@
+run:
+	streamlit run src/options/app.py
+
 test:
 	pytest
 
