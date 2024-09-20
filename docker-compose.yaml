@@ -2,15 +2,16 @@ services:
   ui:
     build: .
     expose:
-      - 8501
+      - 7001
     volumes:
       - ./src/:/app/src/
       - /app/.venv
     command: streamlit run src/options/app.py
+    environment:
+      - VIRTUAL_HOST=choptions.charlieavery.site
+    networks:
+      - web
 
-  nginx:
-    build: ./nginx
-    ports:
-      - 7001:7001
-    depends_on:
-      - ui
+networks:
+  web:
+    external: true
