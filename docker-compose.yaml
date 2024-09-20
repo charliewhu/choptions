@@ -7,6 +7,13 @@ services:
       - ./src/:/app/src/
       - /app/.venv
     command: streamlit run src/options/app.py
+
+  nginx:
+    build: ./nginx
+    expose:
+      - 7001
+    depends_on:
+      - ui
     environment:
       - VIRTUAL_HOST=choptions.charlieavery.site
     networks:
