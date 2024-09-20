@@ -2,7 +2,7 @@ services:
   ui:
     build: .
     expose:
-      - 7001
+      - 8501
     volumes:
       - ./src/:/app/src/
       - /app/.venv
