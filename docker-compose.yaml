@@ -18,6 +18,7 @@ services:
       - ui
     environment:
       - VIRTUAL_HOST=choptions.charlieavery.site
+      - LETSENCRYPT_HOST=choptions.charlieavery.site
     networks:
       - web
 
